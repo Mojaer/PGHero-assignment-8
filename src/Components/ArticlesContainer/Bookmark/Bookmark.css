@@ -1,0 +1,39 @@
+.bookmark {
+    margin-top: 2.5rem;
+    top: 0;
+
+
+}
+
+.bookmark h3 {
+    padding: 1.5rem 2rem;
+    color: #6047EC;
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.bookmarkAdd {
+    padding: 1.9rem;
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+}
+
+.bookmarkAdd h2 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.bookmarkAdd h3 {
+    font-weight: 600;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border: 1px solid #f9f9fa;
+    color: black;
+    text-align: left;
+
+}

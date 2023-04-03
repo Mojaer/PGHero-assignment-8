@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: black;
+        }
+
+        b {
+            font-size: 1.5rem;
+            color: rgb(62, 182, 182);
+        }
+
+        body div {
+            margin: 70px;
+
+        }
+
+        body div h1 {
+            color: rgb(224, 106, 106);
+        }
+
+        body div h3 {
+            color: rgb(160, 204, 204);
+            margin-left: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div>
+            <h1>1. What is the difference between Props and State?</h1>
+            <h3><b>Props :</b> is used to pass data form the parent component to child component. This data can only be
+                modified in the parent component not in the child component. <br>
+                <b>State:</b> in opposite State is
+                used
+                to manage and modify data in the same component. state itself an array and holds the current sate of
+                component and modify the data.
+
+            </h3>
+        </div>
+        <div>
+            <h1>2. How useState work?</h1>
+            <h3><b>useState: </b> is React hook uses to hold current state and modify the data.useState works in two
+                steps <br>initially set a initial value of the data <br> secondly modifies or updates the data by
+                function which is the second element of the useState array
+
+            </h3>
+        </div>
+        <div>
+            <h1>3. What is the work of useEffect except data loading?</h1>
+            <h3> Except data loading useEffect can be used as follows: <ul>
+                    <li>When a component is unmounted, useEffect can be used to clean up after it.</li>
+                    <li>When a component updates, useEffect can be used to start animations or transitions.
+                    </li>
+                    <li>After a component has rendered, useEffect can be used to update the DOM.</li>
+
+                </ul>
+
+            </h3>
+        </div>
+        <div>
+            <h1>4. How does React Work?</h1>
+            <h3>React is a JavaScript library used to create user interfaces. It makes effective use of a virtual DOM
+                (Document Object
+                Model) to refresh the UI in response to changes in user interactions. To manage state and data, it also
+                employs a component-based architecture and a unidirectional data flow.
+            </h3>
+        </div>
+
+    </div>
+</body>
+
+</html>
