@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div className='header'>
             <h2>Assignment cafe</h2>
-            <h3 onClick={() => window.location.href = 'blog.html'} > <FontAwesomeIcon icon={faBookJournalWhills} /> Answer of four questions</h3>
+            <h3  > <FontAwesomeIcon icon={faBookJournalWhills} /> <a href='blog.html' target='_blank'>Answer of four questions</a></h3>
         </div>
     );
 };
